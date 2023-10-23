@@ -1,4 +1,4 @@
-export const nav = [
+const nav = [
     {
         text: "home",
         path: "/",
@@ -24,3 +24,5 @@ export const nav = [
         path: "/contact",
     },
 ]
+
+export default nav;

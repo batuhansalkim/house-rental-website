@@ -1,8 +1,17 @@
 import React from 'react'
+import Header from '../common/header/Header'
+import { BrowserRouter as Router, Switch,Route } from 'react-router-dom'
 
 function Pages() {
   return (
-    <div>Pages</div>
+    <>
+    <Router>
+      <Header/>
+      <Switch>
+        
+      </Switch>
+    </Router>
+    </>
   )
 }
 
