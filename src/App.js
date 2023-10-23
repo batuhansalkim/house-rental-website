@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
-
+import React from 'react';
 function App(){
   return(
-    <div>
-      hello
+    <div className='App'>
+      <h1>batuhan</h1>
     </div>
   )
 }
