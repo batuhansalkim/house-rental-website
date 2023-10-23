@@ -1,10 +1,7 @@
 import React from 'react';
+import Pages from "./components/pages/Pages";
 function App(){
-  return(
-    <div className='App'>
-      <h1>batuhan</h1>
-    </div>
-  )
+  return <Pages/>
 }
 
 export default App;
