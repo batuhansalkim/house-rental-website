@@ -5,7 +5,7 @@ import nav from "../../data/nav";
 import "../../../App.css";
 
 function Header() {
-    const [navlist,setNavList] = useState(false);
+    const [navlist,setNavList] = useState(true);
 
   return (
     <>
