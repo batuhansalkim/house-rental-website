@@ -1,11 +1,13 @@
 import React from 'react';
 import "./hero.css";
+import Heading from '../../common/header/Heading';
 
 export default function Hero() {
   return (
     <>
       <section className='hero'>
         <div className="container">
+          <Heading title='Search Your Next Home ' subtitle='Find new & featured property located in your local city.' />
           <form action="" className='flex'>
             <div className="box">
               <span>City/Street</span>

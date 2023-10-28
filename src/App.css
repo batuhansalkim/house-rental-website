@@ -37,6 +37,25 @@ button{
 button i{
   margin-right: 5px;
 }
+.heading{
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+.heading h1{
+  color: #2f3954;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 35px;
+}
+.heading p{
+  color: #72808d;
+}
+textarea, input{
+  border: none;
+  outline: none;
+  background-color: none;
+}
 
 
 

@@ -9,6 +9,17 @@
 .hero .container{
     padding-top: 15%;
 }
+.hero .container .heading{
+    text-align: center;
+}
+.hero h1{
+    color: #fff;
+    font-size: 60px;
+}
+.hero p{
+    color: #fff;
+    opacity: 0.8;
+}
 form{
     background-color: #fff;
     border-radius: 5px;
@@ -42,7 +53,21 @@ form h4 {
 }
 
 
-
+@media screen and (max-width: 768px) {
+  .hero .container {
+    padding-top: 30%;
+  }
+  form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  form .box {
+    border-left: none;
+  }
+  form input {
+    width: 100%;
+  }
+}
 
 
 
