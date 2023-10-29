@@ -1,4 +1,4 @@
-export const location = [
+const location = [
     {
         id: 1,
         name: "New Orleans, Louisiana",
@@ -48,3 +48,6 @@ export const location = [
         cover: "./images/location/city-6.png",
     },
 ]
+
+
+export default location;

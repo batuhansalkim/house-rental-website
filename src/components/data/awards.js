@@ -1,4 +1,4 @@
-export const awards = [
+const awards = [
     {
         icon: <i class='fa-solid fa-trophy'></i>,
         num: "32 M	",
@@ -20,3 +20,5 @@ export const awards = [
         name: "IITCA Green Award",
     },
 ]
+
+export default awards;

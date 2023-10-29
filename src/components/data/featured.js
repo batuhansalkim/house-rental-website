@@ -1,4 +1,4 @@
-export const featured = [
+const featured = [
     {
         cover: "../images/hero/h1.png",
         name: "Family House",
@@ -25,3 +25,5 @@ export const featured = [
         total: "80 Property",
     },
 ]
+
+export default featured;

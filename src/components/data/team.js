@@ -1,4 +1,4 @@
-export const team = [
+const team = [
     {
         list: "50",
         cover: "../images/customer/team-1.jpg",
@@ -42,3 +42,7 @@ export const team = [
         icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
     },
 ]
+
+
+
+export default team;

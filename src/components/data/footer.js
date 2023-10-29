@@ -1,4 +1,5 @@
-export const footer = [
+
+const footer = [
     {
         title: "LAYOUTS",
         text: [{ list: "Home Page" }, { list: "About Page" }, { list: "Service Page" }, { list: "Property Page" }, { list: "Contact Page" }, { list: "Single Blog" }],
@@ -12,3 +13,6 @@ export const footer = [
         text: [{ list: "About" }, { list: "Blog" }, { list: "Pricing" }, { list: "Affiliate" }, { list: "Login" }, { list: "Changelog" }],
     },
 ]
+
+
+export default footer;

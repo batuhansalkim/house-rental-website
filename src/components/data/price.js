@@ -1,4 +1,4 @@
-export const price = [
+const price = [
     {
         plan: "Basic",
         price: "29",
@@ -77,3 +77,5 @@ export const price = [
         ],
     },
 ]
+
+export default price;

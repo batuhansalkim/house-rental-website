@@ -36,6 +36,25 @@ header .toggle{
     display: none;
 }
 
+@media screen and (max-width:1142px) {
+    .button .btn1{
+        display: none;
+    }
+    .nav{
+        font-size: 12px;
+    }
+    .button h4{
+        display: flex;
+        color: red;
+        font-size: 12px;
+        padding-left: 10px;
+    }
+    .button h4 span{
+        color: rgb(0, 0, 0);
+        background: yellow;
+    }
+}
+
 @media screen and (max-width:768px) {
     header{
         padding: 0;

@@ -1,4 +1,4 @@
-export const list = [
+const list = [
     {
         id: 1,
         cover: "../images/list/p-1.png",
@@ -54,3 +54,6 @@ export const list = [
         type: "Apartment",
     },
 ]
+
+
+export default list;
