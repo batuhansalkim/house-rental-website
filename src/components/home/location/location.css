@@ -1,0 +1,52 @@
+.location .box{
+    position: relative; 
+    border-radius: 5px;
+}
+.location img {
+  border-radius: 5px;
+}
+.location .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 250px;
+    width: 100%;
+    color: white;
+}
+.location .overlay::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 320px;
+    height: 207px;
+    background: rgb(15 28 47 / 30%);
+    z-index: -1;
+    margin: 2px;
+} 
+.location label {
+  color: #fff;
+  margin-right: 20px;
+  opacity: 0.8;
+}
+.location h5 {
+  font-size: 18px;
+  font-weight: 500;
+}
+@media screen and (max-width: 800px) {
+  .location .overlay::after {
+    width: 0px;
+    height: 0px;
+  }
+  .location label{
+    display: none;
+  }
+  .location h5{
+    display: none;
+  }
+}
