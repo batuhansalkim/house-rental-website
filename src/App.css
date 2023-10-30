@@ -118,8 +118,18 @@ img{
   padding: 20px 40px;
   font-weight: 400;
   border: 4px solid #27ae601f;
+  
 }
-
+.btnbatu{
+  background: #fff;
+  border: 5px solid #27ae601f;
+  border-radius: 50px;
+  color: #27ae60;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 20px 40px;
+  
+}
 
 
 

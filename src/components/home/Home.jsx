@@ -6,6 +6,7 @@ import Awards from './awards/Awards';
 import Location from './location/Location';
 import Team from './team/Team';
 import Price from './price/Price';
+import Footer from '../common/footer/Footer';
 export default function Home() {
   return (
     <>
@@ -16,6 +17,7 @@ export default function Home() {
       <Location/>
       <Team/>
       <Price/>
+      <Footer/>
     </>
   )
 }
