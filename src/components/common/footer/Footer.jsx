@@ -36,7 +36,8 @@ function Footer() {
         </div>
     </footer>
     <div className="batuslkm">
-        <span>@ 2023 By GorkCoder And <a href='https://www.instagram.com/batuslkm/' target='_blank'>BatuSlkm</a></span>
+        <span>@ 2023 By GorkCoder And <a href='https://www.instagram.com/batuslkm/' >BatuSlkm</a></span>
+        {/* target="_blank" */}
     </div>
     </>
     
