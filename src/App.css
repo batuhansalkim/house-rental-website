@@ -102,6 +102,15 @@ img{
   grid-template-columns: repeat(4,1fr);
   grid-gap: 30px;
 }
+.btn4{
+  background-color: black;
+  color: white;
+}
+.btn3{
+  background-color: #ff6922;
+  border-radius: 50px;
+  color: white;
+}
 
 
 
